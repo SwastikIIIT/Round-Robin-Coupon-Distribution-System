@@ -62,22 +62,20 @@ const Documentation = () => {
             <li>
               <p className="font-medium">Clone the repository</p>
               <div className="bg-gray-800 text-gray-200 p-2 rounded mt-1 text-sm font-mono">
-                git clone https://github.com/SwastikIIIT/coupon-distribution-system.git
+              https://github.com/SwastikIIIT/Round-Robin-Coupon-Distribution-System.git
               </div>
             </li>
             <li>
               <p className="font-medium">Install dependencies</p>
               <div className="bg-gray-800 text-gray-200 p-2 rounded mt-1 text-sm font-mono">
-                cd coupon-distribution-system<br />
+                cd Round-Robin-Coupon-Distribution-System<br />
                 npm install
               </div>
             </li>
             <li>
               <p className="font-medium">Configure environment variables</p>
               <div className="bg-gray-800 text-gray-200 p-2 rounded mt-1 text-sm font-mono">
-                MONGODB_URI=mongodburl<br />
-                ADMIN_USERNAME=whrphool123@gmail.com<br />
-                ADMIN_PASSWORD=qwerty<br />
+                MONGODB_URI=mongodb+srv://whirphool123:Vasuthegreat@cluster0.yitht.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0<br />
                 AUTH_SECRET=secrethello<br />
               </div>
             </li>
