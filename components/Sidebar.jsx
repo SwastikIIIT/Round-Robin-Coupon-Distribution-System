@@ -15,15 +15,16 @@ const Sidebar=()=>{
   
   const items=[
     { 
-      name:'AdminPanel',
-      icon: UserCog2,
-      isActive:pathname==='/coupon/admin-panel',
-      href:'/coupon/admin-panel'},
-    {
-       name:'Home',
-       icon: Home,
-       isActive:pathname==='/coupon',
-       href:'/coupon'
+        name:'Home',
+        icon: Home,
+        isActive:pathname==='/coupon',
+        href:'/coupon'
+      },
+      {
+        name:'Admin DashBoard',
+        icon: UserCog2,
+        isActive:pathname==='/coupon/admin-panel',
+        href:'/coupon/admin-panel'
       },
       {
         name:'Documentation',

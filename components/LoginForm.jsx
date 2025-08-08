@@ -57,7 +57,7 @@ const  LoginForm=()=>{
             <div className="flex flex-col items-center text-center">
               <h1 className="text-2xl font-bold">Welcome back</h1>
               <p className="text-muted-foreground text-balance">
-                Login to your AlgoAuth account
+                Login to your Admin account
               </p>
             </div>
             
@@ -82,10 +82,8 @@ const  LoginForm=()=>{
 
               
             <div className="text-center text-sm">
-                Don&apos;t have an account?{" "}
-                <Link href="/signup" className="underline underline-offset-4">
-                  Sign up
-                </Link>
+                Don&apos;t have an admin account?{" "}
+                Ensure your admin access by creating it first.
               </div>
             
           </div>
