@@ -22,7 +22,7 @@ export function Background() {
            Round Robin Coupon Distribution System
         </div>
         <div className="font-extralight text-base md:text-4xl dark:text-neutral-200 py-4">
-          And this, is my project assignment.
+          And this, is my project.
         </div>
         <button className="cursor-pointer bg-black dark:bg-white rounded-full w-fit text-white dark:text-black px-4 py-2">
           <Link href='/coupon'>Get Started</Link>
