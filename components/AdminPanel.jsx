@@ -70,7 +70,6 @@ const AdminPanel = () => {
   const [isDialogOpen,setIsDialogOpen] = useState(false);
   const itemsPerPage=5;
 
-  // Fetch coupons from the API
   const fetchCoupons=async()=>{
     try {
       const response = await fetch('/api/fetch-coupon');
